@@ -27,70 +27,70 @@
     </nav>
 
     <header>
-        <h1>How to Use <span>HackStorm AI</span></h1>
-        <p>Your premium AI-powered technical interview simulator. Real-time voice, live coding, and instant evaluation.</p>
+        <h1>User Guide for <span>HackStorm AI</span></h1>
+        <p>The ultimate AI-powered technical interview simulator. Here is how to master your interview experience.</p>
         <div class="cta-group">
-            <a href="#setup" class="btn btn-primary">Get Started</a>
-            <a href="https://github.com/shreyash718/hackstorm-ai" class="btn btn-outline">View Repo</a>
+            <a href="#candidate" class="btn btn-primary">For Candidates</a>
+            <a href="#recruiter" class="btn btn-outline">For Recruiters</a>
         </div>
     </header>
 
     <main>
         <section id="features" class="grid">
             <div class="card">
-                <div class="icon">🎤</div>
-                <h3>Voice First</h3>
-                <p>Natural conversation with Arjun, our AI interviewer. Uses high-quality TTS and speech recognition.</p>
+                <div class="icon">🤖</div>
+                <h3>AI Arjun</h3>
+                <p>Interact with Arjun, our senior engineer AI. He'll guide you through brainstorming, coding, and optimization.</p>
             </div>
             <div class="card">
-                <div class="icon">💻</div>
-                <h3>Live Editor</h3>
-                <p>Full Monaco Editor integration with support for Python, C++, Java, and more.</p>
+                <div class="icon">🎙️</div>
+                <h3>Voice Enabled</h3>
+                <p>Speak naturally. Our system detects your voice activity and processes speech in real-time.</p>
             </div>
             <div class="card">
-                <div class="icon">⚡</div>
-                <h3>Instant Feedback</h3>
-                <p>Get detailed performance reports and scores immediately after the session.</p>
+                <div class="icon">📈</div>
+                <h3>Deep Analysis</h3>
+                <p>Receive comprehensive reports on technical proficiency, problem-solving, and communication.</p>
             </div>
         </section>
 
-        <section id="setup">
-            <h2>🚀 Quick Start for Teammates</h2>
+        <section id="candidate">
+            <h2>🎯 Candidate Experience</h2>
             <div class="setup-container">
                 <div class="setup-step">
-                    <h4>1. Clone & Install</h4>
-                    <div class="code-block">
-                        <pre><code>git clone https://github.com/shreyash718/hackstorm-ai.git
-cd hackstorm-ai/frontend
-npm install</code></pre>
-                        <button class="copy-btn">Copy</button>
-                    </div>
+                    <h4>1. Starting the Interview</h4>
+                    <p>Enter the interview lobby and verify your details. Ensure you are in a quiet environment for the best voice experience.</p>
                 </div>
 
                 <div class="setup-step">
-                    <h4>2. Configure Environment</h4>
-                    <p>Create a <code>.env.local</code> file in the <code>frontend/</code> folder:</p>
-                    <div class="code-block">
-                        <pre><code>NEXT_PUBLIC_API_URL=https://hackstorm-ai.onrender.com
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key</code></pre>
-                        <button class="copy-btn">Copy</button>
-                    </div>
+                    <h4>2. Enabling Microphone</h4>
+                    <p>When the interview starts, the browser will ask for microphone permissions. <strong>Click "Allow"</strong> to enable the voice-driven interview flow.</p>
                 </div>
 
                 <div class="setup-step">
-                    <h4>3. Run Locally</h4>
-                    <div class="code-block">
-                        <pre><code>npm run dev</code></pre>
-                        <button class="copy-btn">Copy</button>
-                    </div>
-                    <p>Open <a href="http://localhost:3000">localhost:3000</a> to start.</p>
+                    <h4>3. The Workspace</h4>
+                    <p>On the left, you'll see the problem description. In the center is the <strong>Monaco Editor</strong>, and on the right is your live chat with Arjun.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="recruiter">
+            <h2>💼 Recruiter Dashboard</h2>
+            <div class="setup-container">
+                <div class="setup-step">
+                    <h4>1. Assessment Management</h4>
+                    <p>Create assessments by picking problems from our extensive library or adding your own custom challenges.</p>
+                </div>
+
+                <div class="setup-step">
+                    <h4>2. Reviewing Results</h4>
+                    <p>Access the dashboard to see all candidate attempts. Each report includes the full code history, chat transcript, and an AI-generated breakdown.</p>
                 </div>
             </div>
         </section>
 
         <section id="shortcuts">
-            <h2>⌨️ Keyboard Shortcuts</h2>
+            <h2>⌨️ Master the Shortcuts</h2>
             <div class="shortcut-list">
                 <div class="shortcut-item">
                     <span class="key">Ctrl</span> + <span class="key">L</span>
@@ -98,11 +98,25 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key</code></pre>
                 </div>
                 <div class="shortcut-item">
                     <span class="key">Enter</span>
-                    <span class="desc">Send message (when recording is ready)</span>
+                    <span class="desc">Send message to Arjun</span>
                 </div>
                 <div class="shortcut-item">
-                    <span class="key">Shift</span> + <span class="key">Enter</span>
-                    <span class="desc">New line in code editor</span>
+                    <span class="key">Tab</span>
+                    <span class="desc">Indent code (handled inside editor)</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips">
+            <h2>💡 Pro Tips</h2>
+            <div class="grid">
+                <div class="card">
+                    <h4>Voice Not Working?</h4>
+                    <p>If Arjun isn't hearing you, refresh the page and ensure the "🎤" icon at the top is turned ON.</p>
+                </div>
+                <div class="card">
+                    <h4>Cursor Issues?</h4>
+                    <p>If the cursor feels offset, ensure your browser zoom is set to 100% for the best layout accuracy.</p>
                 </div>
             </div>
         </section>
